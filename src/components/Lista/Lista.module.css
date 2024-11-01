@@ -1,0 +1,102 @@
+.inputForm {
+  width: 45rem;
+  height: 3.5rem;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputForm textarea {
+  width: 100%;
+  height: 20px;
+  background: #262626;
+  border: 1px solid black;
+  resize: none;
+  padding: 1rem;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  font-family: var(--font);
+  font-size: 14px;
+}
+
+.inputForm textarea:focus {
+  border: 1px solid var(--prod-400);
+}
+
+.inputForm button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--linha-100);
+  width: 90px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--prod-200);
+}
+
+.container {
+  width: 45rem;
+  margin: auto;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.list p {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.feitas {
+  color: var(--prod-300);
+}
+
+.concluidas {
+  color: var(--prod-400);
+}
+
+.list span {
+  background: var(--base-200);
+  color: var(--linha-200);
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.noTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  color: var(--base-100);
+  margin-top: 20px;
+  border-radius: 8px;
+  border-top: 1px solid var(--base-100);
+}
+
+.noTask strong {
+  font-size: 1rem;
+}
+
+.noTask p {
+  font-size: 0.875rem;
+}
+
+.noTask img {
+  width: 100px;
+  margin: 20px;
+}

@@ -1,0 +1,33 @@
+:root {
+    --prod-200: #1e6f9f;
+    --prod-300: #4ea8de;
+    --prod-400: #5e60ce;
+    --prod-500: #8284fa;
+  
+    --base-100: #808080;
+    --base-200: #333333;
+    --base-300: #262626;
+    --base-400: #1a1a1a;
+    --base-500: #0d0d0d;
+  
+    --linha-100: #f2f2f2;
+    --linha-200: #d9d9d9;
+
+    --font: Inter;
+  
+    --feedback: #e25858;
+  }
+
+  :focus {
+    outline: transparent;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background: var(--base-400);
+      font-family: var(--font);
+  }
