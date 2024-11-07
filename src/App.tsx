@@ -1,17 +1,18 @@
 import { Header } from "./components/Header/Header";
-import styles from "./App.module.css"
-import "./global.css"
+import styles from "./App.module.css";
+import "./global.css";
 import { List } from "./components/Lista/Lista";
-
+  
 export function App() {
-  return(
+   
+  return (
     <>
       <Header />
       <div className={styles.warpper}>
-          <main>
+        <main>
           <List />
-          </main>
+        </main>
       </div>
     </>
-  )
+  );
 }

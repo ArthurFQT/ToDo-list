@@ -1,6 +1,6 @@
+// Task.tsx
 import { Trash } from "phosphor-react";
 import styles from "./Task.module.css";
-// import { useState } from "react";
 
 interface TaskProps {
   id: number;
@@ -36,7 +36,6 @@ export function Task({
           onChange={handleToggleComplete}
           className={styles.checkbox}
         />
-
         <p>{content}</p>
       </div>
       <button
