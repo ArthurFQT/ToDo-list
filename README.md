@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# ToDo List
 
-<a href="https://todo-list-gamma-snowy-79.vercel.app/" target="_blank" rel="noopener noreferrer">Link do projeto</a>
+Projeto feito pelo desafio do curso de react da [Rocketseat](https://github.com/Rocketseat)
